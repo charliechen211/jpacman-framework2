@@ -1,10 +1,8 @@
 ![build status](https://travis-ci.org/SERG-Delft/jpacman-framework.svg?branch=master)
 
-JPacman-Framework
-=================
+# JPacman-Framework
 
-About
------
+## About
 
 Pacman-like game used for teaching software testing.
 It exposes students to the use of git, maven, JUnit, and mockito.
@@ -22,21 +20,19 @@ If you have any suggestions on how to improve this framework, please do not hesi
 
 Main contributors:
 
-*	Arie van Deursen (versions 1.0-5.x, 2003-2013, updates to versions 6.x and further, 2014-...)
-*	Jeroen Roosen (major rewrite, version 6.0, 2014)
+- Arie van Deursen (versions 1.0-5.x, 2003-2013, updates to versions 6.x and further, 2014-...)
+- Jeroen Roosen (major rewrite, version 6.0, 2014)
 
-
-Getting Started
----------------
+## Getting Started
 
 1. Git clone the project
 2. If you use Eclipse:
-	1. Import
-	2. Right Click -> Configure -> Convert to Maven Project
-3. To see JPacman in action: run `nl.tudelft.jpacman.Launcher`.  From the
-command line, run
-```java -classpath target/jpacman-framework-<VERSION>.jar nl.tudelft.jpacman.Launcher```
+   1. Import
+   2. Right Click -> Configure -> Convert to Maven Project
+3. To see JPacman in action: run `nl.tudelft.jpacman.Launcher`. From the
+   command line, run
+   `java -classpath target/jpacman-framework-<VERSION>.jar nl.tudelft.jpacman.Launcher`
 4. To run the test suite in maven: `mvn test`
 5. To run the test suite in Eclipse: right click -> run as -> JUnit Test.
 
-6. 
+6.
